@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Customer Details</legend>
+        <div>
+          <label for="field1">First Name</label>
+          <input type="text" name="field1" placeholder="George" autofocus />
+        </div>
+        <div>
+          <label for="field2">Last Name</label>
+          <input type="text" name="field2" placeholder="Devis" />
+        </div>
+        <div>
+          <label for="field3">
+            <span>Male</span>
+            <input type="radio" name="field3" />
+            <span>Female</span>
+            <input type="radio" name="field3" />
+            <span>Other</span>
+            <input type="radio" name="field3" />
+          </label>
+        </div>
+        <div>
+          <label for="field4">Preferred contact method:</label>
+          <span>Email</span>
+          <input type="radio" name="field4" />
+          <span>Phone</span>
+          <input type="radio" name="field4" />
+        </div>
+        <div>
+          <label for="field5"
+            >Email
+            <input type="email" placeholder="your@email.com" />
+          </label>
+        </div>
+        <div>
+          <label for="field6">Phone</label>
+          <input type="tel" placeholder="+359885236225" />
+        </div>
+        <div>
+          <label for="field7">Town</label>
+          <select name="field7" id="towns">
+            <option value="Sofia">Sofia</option>
+            <option value="Varna">Varna</option>
+            <option value="Burgas">Burgas</option>
+          </select>
+        </div>
+        <div>
+          <label for="field8">Age</label>
+          <input type="number" min="18" max="70" />
+        </div>
+        <div>
+          <label for="filed9">Programming language</label>
+          <input list="languages" name="field9" id="language" />
+          <datalist id="languages">
+            <option value="Python"></option>
+            <option value="C#"></option>
+            <option value="JS"></option>
+            <option value="Java"></option>
+            <option value="C++"></option>
+            <option value="Pascal"></option>
+          </datalist>
+        </div>
+        <div>
+            <textarea name="field10" id="" cols="20" rows="5" placeholder="More information..."></textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="field11" checked>
+            <label for="field11">I agree the Terms and Conditions</label>
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
