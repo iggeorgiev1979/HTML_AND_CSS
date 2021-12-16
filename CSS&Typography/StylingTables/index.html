@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling Tables</title>
+    <style>
+        table, td, th{
+            text-align: left;
+            border-width: 1px;
+            border-color: rgb(179, 178, 178);
+            border-style:solid;
+            border-collapse: collapse;
+            /* background: rgb(255, 255, 255); */
+            font-family: sans-serif, serif;
+            font-size: 16px;
+            padding: 4px;
+        }
+        td, th{
+            width: 8cm;
+        }
+        th{
+            background: rgb(179, 178, 178);
+        }
+        .odd{
+            background: rgb(207, 206, 206);
+        }
+        .evev{
+            background: rgb(221, 220, 220);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Country</th>
+                <th>Population</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="odd">
+                <td>Somewhere</td>
+                <td>3M</td>
+                <td>25</td>
+            </tr>
+            <tr class="even">
+                <td>Somewhere else</td>
+                <td>12M</td>
+                <td>125</td>
+            </tr>
+            <tr class="odd">
+                <td>That place</td>
+                <td>23M</td>
+                <td>235</td>
+            </tr>
+            <tr class="even">
+                <td>Somewhere</td>
+                <td>3M</td>
+                <td>25</td>
+            </tr>
+            <tr class="odd">
+                <td>Somewhere else</td>
+                <td>12M</td>
+                <td>125</td>
+            </tr>
+            <tr class="even">
+                <td>That place</td>
+                <td>23M</td>
+                <td>235</td>
+            </tr>
+            <tr class="odd">
+                <td>Somewhere</td>
+                <td>3M</td>
+                <td>25</td>
+            </tr>
+            <tr class="even">
+                <td>Somewhere else</td>
+                <td>12M</td>
+                <td>125</td>
+            </tr>
+            <tr class="odd">
+                <td>That place</td>
+                <td>23M</td>
+                <td>235</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
