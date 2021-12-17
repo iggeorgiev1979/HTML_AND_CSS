@@ -1,0 +1,15 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+a.green{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 1px;
+    padding: 5px;
+}
+a.orange{
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 1px;
+    padding: 5px;
+}
