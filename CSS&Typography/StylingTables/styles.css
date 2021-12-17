@@ -1,0 +1,16 @@
+td, th{
+    width: 8cm;
+    text-align: left;
+}
+table :nth-child(odd){
+    background: rgb(241, 241, 241);
+}
+table, td{
+    border-style: solid;
+    border-width: 1px;
+    border-collapse: collapse;
+}
+table, th{
+    border-width: 1px;
+}
+
