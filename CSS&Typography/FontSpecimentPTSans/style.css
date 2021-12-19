@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=Great+Vibes&family=Lato:wght@300&family=PT+Sans&family=Raleway:wght@300&display=swap');
+ul.a{
+    list-style-type: square;
+}
+ul.b{
+    list-style-type: disc;
+}
+ul.c{
+    list-style-type: circle;
+}
+html{
+    font-family: PT Sans, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
