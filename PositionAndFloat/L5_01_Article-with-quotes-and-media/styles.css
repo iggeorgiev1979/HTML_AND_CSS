@@ -1,0 +1,47 @@
+html{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+body{
+    width: 60%;
+    background-color: rgb(238, 238, 238);
+    margin: auto;
+}
+
+p.site-title{
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+img.first{
+    float: right;
+    border: 2px solid black;
+    padding: 10px;
+    margin-left: 10px;
+    background-color: white;
+}
+.clear{
+    clear: right;
+}
+blockquote{
+    padding-left: 20px;
+    float: right;
+    width: 30%;
+    border-left: solid rgb(221, 221, 221);
+    font-style: italic;
+    border-color: gray;
+    margin-top: 0;
+}
+blockquote p{
+    text-align: right;
+}
+img{
+    float: left;
+    border: 2px solid black;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: white;
+}
